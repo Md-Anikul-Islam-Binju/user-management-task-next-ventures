@@ -17,7 +17,7 @@ php artisan migrate
 
 # Create Permission
 ```
-php artisan db:seed --class=PermissionTableSeeder
+php artisan db:seed --class=RolePermissionSeeder
 ```
 
 # Passport Key and client generate
